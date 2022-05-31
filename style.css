@@ -17,6 +17,11 @@
     padding: 0;
 }
 
+a, a:hover{
+    color: unset;
+    text-decoration: none;
+}
+
 
 header{
     background-color: var(--color-red);
@@ -24,6 +29,7 @@ header{
     display: flex;
     align-items: center;
     height: 70px;
+    padding: 0 15px;
 }
 
 .container {
@@ -46,11 +52,14 @@ nav h1{
 
 .pizza-card{
     display: flex;
+    margin-top: 40px;
 }
 
+
 #pizzas{
-    padding: 40px 0px;
+    padding: 1px 40px 40px 40px;
     background-color: var(--bg-light-grey);
+    padding: 0 15px;    
 }
 
 
@@ -76,4 +85,52 @@ nav h1{
 .pizza-text h4{
     color: var(--text-green);
     font-size: 24px;
+}
+
+#comments{
+    padding: 20px 15px;
+    background-color:var(--bg-color-whithe);
+}
+
+#comments h2{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: var(--text-grey);
+    background-color:var(--bg-color-whithe);
+}
+
+.informacion{
+    padding: 25px 20px;
+    background-color: var(--color-yellow);
+    color: var(--color-red);
+    border-radius: 12px;
+    margin-bottom: 40px;
+    display: flex;
+    margin: 20px 0;   
+}
+
+footer{
+    height: 120px;
+    background-color: var(--color-red);
+    color: var(--color-yellow);
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-content a{
+    font-size: 16px;
+
+}
+
+.footer-content address{
+    font-size: 16px;
 }
